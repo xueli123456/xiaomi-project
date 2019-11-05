@@ -1,10 +1,10 @@
 <template>
-   <div>登录组件</div>
+    <div>分类</div>
 </template>
 
 <script>
     export default {
-        name: "Login"
+        name: "category"
     }
 </script>
 

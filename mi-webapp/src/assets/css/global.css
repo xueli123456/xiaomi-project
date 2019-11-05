@@ -1,0 +1,28 @@
+/*全局样式表*/
+body,ul,ol,dl,dd,p,h1,h2,h3,h4,h5,h6,input,textarea,hr,div,em,strong{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: "微软雅黑";
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border: none;
+}
+html{
+    font-size: 26.666vw;
+}
+body{
+    width: 3.75rem;
+    font-size: .12rem;
+    font-family: Arial,Helvetica,STHeiTi,sans-serif;
+}
+*{
+    webkit-tap-highlight-color: transparent;
+}
