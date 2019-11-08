@@ -1,28 +1,53 @@
 <template>
-    <div>
+    <div class="home">
         <mi-header></mi-header>
-        <mi-banner></mi-banner>
-        <mi-list></mi-list>
-        <home-multi></home-multi>
+        <home-nav v-if="homeInfo" :data="homeInfo"></home-nav>
+        <div class="empty"></div>
     </div>
 </template>
 
 <script>
-import header from '../components/header'
-import banner from '../components/home-banner'
-import list from '../components/home-list'
-import multi from '../components/home-multi'
+import header from '../components/home/header'
+import navs from '../components/home/home-nav'
+import homeApi from '../apis/homeApi'
     export default {
         name: "home",
         components:{
             "mi-header":header,
-            "mi-banner":banner,
-            'mi-list':list,
-            'home-multi':multi
-        }
+            "home-nav":navs
+        },
+        data(){
+            return{
+                homeInfo:[]
+            }
+        },
+        methods: {
+            /**
+             * 页面的数据加载
+             **/
+            async _initPageData () {
+                let data = await homeApi.getHomeInfo()
+                this.homeInfo = data
+                // eslint-disable-next-line no-console
+                console.log(data);
+            },
+        },
+        created() {
+            this._initPageData()
+        },
 
     }
 </script>
 
 <style scoped>
+    .empty{
+        height: 8rem;
+        background-color: antiquewhite;
+        width:3.75rem
+    }
+    .home{
+        overflow: hidden;
+        width:3.75rem
+    }
+
 </style>

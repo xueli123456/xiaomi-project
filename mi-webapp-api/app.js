@@ -3,9 +3,11 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+var hbs = require("hbs")
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
+var cartRouter = require("./controllers/cart")
 
 var app = express();
 
@@ -16,11 +18,22 @@ app.set('view engine', 'ejs');
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
+var session = require('express-session');
+//cookie 字符串转成json
+app.use(cookieParser('qf'));
+//配置express服务器session
+app.use(session({
+  secret: 'qf',//与cookieParser中的一致
+  resave: true,
+  saveUninitialized:true
+}));
 
+////静态的文件直接返回，不通过路由处理
+app.use(express.static(path.join(__dirname, 'public')));
+//注册页面的一级路由
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+app.use("/cart",cartRouter)
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

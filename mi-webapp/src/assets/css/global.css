@@ -26,3 +26,6 @@ body{
 *{
     webkit-tap-highlight-color: transparent;
 }
+div{
+    box-sizing: border-box;
+}

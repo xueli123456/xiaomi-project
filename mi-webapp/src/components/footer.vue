@@ -12,7 +12,7 @@
                     <span>分类</span>
                 </div>
             </router-link>
-            <router-link to="/main/cart" class="cart" @click="switchTo('/main/cart')">
+            <router-link to="/main/test" class="cart" @click="switchTo('/main/test')">
                 <div class="foot-con">
                     <img :src="'/main/cart' === $route.path ? tabBarImgArr[2].selected : tabBarImgArr[2].normal" alt="">
                     <span>购物车</span>
@@ -61,9 +61,10 @@
         right: 0;
         height: 0.52rem;
         background: #fff;
-        z-index: 99;
+        z-index: 9999;
         box-shadow: 0 3px 14px 2px rgba(0,0,0,.12);
         text-align: center;
+        width:3.76rem
     }
     .footer a{
         display: inline-block;
