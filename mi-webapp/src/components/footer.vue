@@ -12,7 +12,7 @@
                     <span>分类</span>
                 </div>
             </router-link>
-            <router-link to="/main/test" class="cart" @click="switchTo('/main/test')">
+            <router-link to="/main/cart" class="cart" @click="switchTo('/main/cart')">
                 <div class="foot-con">
                     <img :src="'/main/cart' === $route.path ? tabBarImgArr[2].selected : tabBarImgArr[2].normal" alt="">
                     <span>购物车</span>
@@ -26,7 +26,6 @@
 
             </router-link>
     </div>
-    
 </template>
 
 <script>

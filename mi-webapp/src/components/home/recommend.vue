@@ -43,16 +43,7 @@
             <img :src="data.newGoods.src4" alt="">
         </div>
         <div class="hdivider_line"></div>
-        <!--每日精选开始-->
-        <div class="day-choice">
-            <div class="choice-title" v-for="(item,index) in data.goods" :key="index">
-                <img :src="item.src" alt="">
-            </div>
-            <div>
-
-            </div>
-        </div>
-        <!--每日精选结束-->
+        <remb-choice :data="data.goods" v-if="data.goods"></remb-choice>
 
     </div>
 
@@ -60,6 +51,7 @@
 
 <script>
     import  Swiper from 'swiper'
+    import choice from './choice'
     export default {
         name: "recommend",
         data(){
@@ -79,6 +71,9 @@
             }
         },
         props: ['data'],
+        components:{
+           "rembChoice":choice
+        }
     }
 </script>
 
@@ -136,9 +131,5 @@
     .carnival,.carnival img{
         width: 3.75rem;
         height: 1.45rem;
-    }
-    .choice-title img{
-        width: 3.75rem;
-        height: 2.29rem;
     }
 </style>

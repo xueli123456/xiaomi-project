@@ -3,10 +3,10 @@ import VueRouter from 'vue-router'
 import Login from '../views/Login'
 import main from '../views/main'
 import home from '../views/home'
-// import cart from '../views/cart'
+import cart from '../views/cart'
 import user from '../views/user'
 import category from '../views/category'
-import test from '../views/test'
+import detail from "../views/detail";
 Vue.use(VueRouter)
 
 //通过VueRouter创建一个实例对象
@@ -17,6 +17,10 @@ let router = new VueRouter({
         {
             path:'/user',
             component:Login,
+        },
+        {
+            path:'/detail',
+            component:detail,
         },
         {
             path: '/',
@@ -31,14 +35,12 @@ let router = new VueRouter({
                     component: home
                 },
                 {
-                    // path: 'test',
-                    // component: test
                     path: 'category',
                     component: category
                 },
                 {
-                    path: 'test',
-                    component: test
+                    path: 'cart',
+                    component: cart
                 },
                 {
                     path: 'user',

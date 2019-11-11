@@ -41,8 +41,7 @@ import homeApi from '../apis/homeApi'
 
 <style scoped>
     .empty{
-        height: 8rem;
-        background-color: antiquewhite;
+        height: 0.6rem;
         width:3.75rem
     }
     .home{

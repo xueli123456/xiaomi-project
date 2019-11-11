@@ -23,9 +23,10 @@
         <!--导航栏结束-->
         <div class="empty"></div>
         <div  :class="{popupMask:show===false}"></div>
-        <recommend v-show="flag==='recommend'" :data="data" v-if="data.banner "></recommend>
-        <phone v-else-if="flag==='phone'" ></phone>
-        <Intelligence v-else-if="flag==='Intelligence'" ></Intelligence>
+<!--        <recommend v-show="flag==='recommend'" :data="data" v-if="data.banner "></recommend>-->
+<!--        <phone v-else-if="flag==='phone'" ></phone>-->
+<!--        <Intelligence v-else-if="flag==='Intelligence'" ></Intelligence>-->
+        <div :is="flag" v-if="data.banner" :data="data"></div>
     </div>
 
         <!--<two v-else></two>-->
@@ -33,7 +34,7 @@
 <!--        <keep-alive>-->
 <!--            <div :is="flag"></div>-->
 <!--        </keep-alive>-->
-<!--        <div :is="flag" v-if="data" :data="data"></div>-->
+
 </template>
 
 <script>

@@ -53,6 +53,7 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="cate-empty"></div>
                     </div>
                 </div>
             </div>
@@ -83,19 +84,14 @@
                 let data = await categoryApi.getCategoryInfo()
                 this.categoryInfo = data.goodlist
                 // eslint-disable-next-line no-console
-                console.log(data);
             },
             dataScroll: function () {
                 this.scroll = document.documentElement.scrollTop;
                 // eslint-disable-next-line no-console
-                console.log(this.scroll )
             },
             jump(index) {
                 let jump = document.getElementsByClassName('catg-item-main');
-
-                // 获取需要滚动的距离
-                // eslint-disable-next-line no-console
-                console.log(jump)
+                // 获取需要滚动的距
                 let total = jump[index].offsetTop - 50;
                  document.documentElement.scrollTop = total;
                 $('html, body').animate({
@@ -104,10 +100,8 @@
             },
             loadSroll: function () {
                 var self = this;
-                // eslint-disable-next-line no-undef
                 var $navs = $(".catg-list-nav-cur");
                 // eslint-disable-next-line no-console
-                console.log($navs)
                 var sections = document.getElementsByClassName('catg-item-main');
                 for (var i = sections.length - 1; i >= 0; i--) {
                     if (self.scroll >= sections[i].offsetTop - 100) {
@@ -309,6 +303,8 @@
         font-size: 0.177rem!important;
         transform: scale(1);
         transition: transform .1s linear;
-
+    }
+    .cate-empty{
+        height: 2rem;
     }
 </style>

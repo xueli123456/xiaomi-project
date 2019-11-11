@@ -1,5 +1,5 @@
 <template>
-    <div>智能</div>
+    <div class="zhinneg">智能</div>
 </template>
 
 <script>
@@ -9,5 +9,8 @@
 </script>
 
 <style scoped>
+    .zhinneg{
 
+        margin-top: 1rem;
+    }
 </style>
