@@ -76,6 +76,42 @@
         font-size: .13rem;
         text-decoration: none;
     }
+    .pro-name-right{
+        text-align: right;
+        font-size: .12rem;
+    }
+    .proname-text,.spe{
+        margin: 0 .026rem;
+    }
+    .pro-name-foot{
+        padding: .167rem .167rem 0;
+        line-height: 0.315rem;
+        font-size: 0.208rem;
+        text-align: left;
+    }
+    .pro-name-foot img{
+        width: 0.455rem;
+        height: 0.218rem;
+        margin-right: .05rem;
+    }
+    .pro-name-left{
+        min-width: 0.52rem;
+        text-align: left;
+    }
+    .price {
+        position: relative;
+        padding-left: .11rem;
+        line-height: 0.1667rem;
+        display: inline-block;
+    }
+    .price:before {
+        content: "￥";
+        position: absolute;
+        left: 0;
+        top: 0;
+        font-size: .13rem;
+        text-decoration: none;
+    }
 
 
 </style>

@@ -91,15 +91,15 @@ module.exports={
                             "products": [
                                 {
                                     "title": "小米CC91 Pro",
-                                    "pic": "assets/images/categroy-img/phone1.png"
+                                    "pic": "assets/images/categroy-img/comp1.jpg"
                                 },
                                 {
                                     "title": "Redmi 8",
-                                    "pic": "assets/images/categroy-img/phone2.png"
+                                    "pic": "assets/images/categroy-img/comp2.jpg"
                                 },
                                 {
                                     "title": "Redmi 8A",
-                                    "pic": "assets/images/categroy-img/phone3.png"
+                                    "pic": "assets/images/categroy-img/comp3.jpg"
                                 }
                             ]
 
@@ -108,18 +108,18 @@ module.exports={
                 },
                {
                    "title": "众筹",
-                   "pic": "assets/images/categroy-img/new1.jpg",
+                   "pic": "assets/images/categroy-img/zhong1.png",
                    "goods": [
                        {
                            "name": "众筹好物",
                            "products": [
                                {
-                                   "title": "小米CC91 Pro",
+                                   "title": "湿温度计",
                                    "pic": "assets/images/categroy-img/phone1.png"
                                },
                                {
                                    "title": "Redmi 8",
-                                   "pic": "assets/images/categroy-img/phone2.png"
+                                   "pic": "assets/images/categroy-img/xiaoai3.jpg"
                                },
                                {
                                    "title": "Redmi 8A",
@@ -127,19 +127,19 @@ module.exports={
                                },
                                {
                                    "title": "小米9 Pro 5G",
-                                   "pic": "assets/images/categroy-img/phone4.png"
+                                   "pic": "assets/images/categroy-img/xiaoai5.png"
                                },
                                {
                                    "title": "小米MIX Alpha",
-                                   "pic": "assets/images/categroy-img/phone5.png"
+                                   "pic": "assets/images/categroy-img/xiaoai5.png"
                                },
                                {
                                    "title": "K20 Pro尊享版",
-                                   "pic": "assets/images/categroy-img/phone6.png"
+                                   "pic": "assets/images/categroy-img/xiaoai7.jpg"
                                },
                                {
                                    "title": "Redmi Note 8 Pro",
-                                   "pic": "assets/images/categroy-img/phone7.gif"
+                                   "pic": "assets/images/categroy-img/xiaoai6.jpg"
                                },
                                {
                                    "title": "Redmi Note 8",
@@ -164,22 +164,22 @@ module.exports={
                },
                {
                    "title": "小米手机",
-                   "pic": "assets/images/categroy-img/new1.jpg",
+                   "pic": "assets/images/categroy-img/mi.jpg",
                    "goods": [
                        {
-                           "name": "小米CC系列",
+                           "name": "小米数字系列",
                            "products": [
                                {
                                    "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
+                                   "pic": "assets/images/categroy-img/mi1.png"
                                },
                                {
                                    "title": "Redmi 8",
-                                   "pic": "assets/images/categroy-img/phone2.png"
+                                   "pic": "assets/images/categroy-img/phone9.png"
                                },
                                {
                                    "title": "Redmi 8A",
-                                   "pic": "assets/images/categroy-img/phone3.png"
+                                   "pic": "assets/images/categroy-img/phone8.gif"
                                },
                                {
                                    "title": "小米9 Pro 5G",
@@ -192,11 +192,11 @@ module.exports={
                            "products": [
                                {
                                    "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
+                                   "pic": "assets/images/categroy-img/phone10.png"
                                },
                                {
                                    "title": "Redmi 8",
-                                   "pic": "assets/images/categroy-img/phone2.png"
+                                   "pic": "assets/images/categroy-img/phone11.png"
                                }
                            ]
 
@@ -206,7 +206,7 @@ module.exports={
                            "products": [
                                {
                                    "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
+                                   "pic": "assets/images/categroy-img/phone6.png"
                                }
                            ]
                        },
@@ -215,11 +215,11 @@ module.exports={
                            "products": [
                                {
                                    "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
+                                   "pic": "assets/images/categroy-img/phone7.gif"
                                },
                                {
                                    "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
+                                   "pic": "assets/images/categroy-img/phone8.gif"
                                }
 
                            ]
@@ -234,19 +234,19 @@ module.exports={
                            "products": [
                                {
                                    "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
+                                   "pic": "assets/images/categroy-img/phone2.png"
                                },
                                {
                                    "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
+                                   "pic": "assets/images/categroy-img/phone9.png"
                                },
                                {
                                    "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
+                                   "pic": "assets/images/categroy-img/phone7.gif"
                                },
                                {
                                    "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
+                                   "pic": "assets/images/categroy-img/phone6.png"
                                }
 
                            ]
@@ -256,7 +256,11 @@ module.exports={
                            "products": [
                                {
                                    "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
+                                   "pic": "assets/images/categroy-img/phone3.png"
+                               },
+                               {
+                                   "title": "小米CC91 Pro",
+                                   "pic": "assets/images/categroy-img/phone2.png"
                                },
                                {
                                    "title": "小米CC91 Pro",
@@ -264,11 +268,7 @@ module.exports={
                                },
                                {
                                    "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               },
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
+                                   "pic": "assets/images/categroy-img/phone5.png"
                                }
                            ]
                        },
@@ -277,11 +277,11 @@ module.exports={
                            "products": [
                                {
                                    "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
+                                   "pic": "assets/images/categroy-img/phone3.png"
                                },
                                {
                                    "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
+                                   "pic": "assets/images/categroy-img/phone9.png"
                                }
                            ]
                        },
@@ -290,11 +290,11 @@ module.exports={
                            "products": [
                                {
                                    "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
+                                   "pic": "assets/images/categroy-img/phone4.png"
                                },
                                {
                                    "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
+                                   "pic": "assets/images/categroy-img/phone5.png"
                                }
                            ]
                        }
@@ -302,14 +302,13 @@ module.exports={
                },
                {
                    "title": "黑鲨游戏",
-                   "pic": "assets/images/categroy-img/new1.jpg",
                    "goods": [
                        {
                            "name": "黑鲨游戏手机",
                            "products": [
                                {
                                    "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
+                                   "pic": "assets/images/categroy-img/hei1.png"
                                }
                            ]
                        },
@@ -318,7 +317,7 @@ module.exports={
                            "products": [
                                {
                                    "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
+                                   "pic": "assets/images/categroy-img/hei2.png"
                                }
                            ]
                        }
@@ -326,519 +325,252 @@ module.exports={
                },
                {
                    "title": "电视",
-                   "pic": "assets/images/categroy-img/new1.jpg",
-                   "goods": [
+                   "goods":[
                        {
-                           "name": "Redmin红米 数字系列",
+                           "name": "电视",
                            "products": [
                                {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
+                                   "title": "32.4英寸",
+                                   "pic": "assets/images/categroy-img/tv1.png"
                                },
                                {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
+                                   "title": "43英寸",
+                                   "pic": "assets/images/categroy-img/tv2.jpg"
                                },
                                {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
+                                   "title": "49-50英寸",
+                                   "pic": "assets/images/categroy-img/tv3.jpg"
                                },
                                {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
+                                   "title": "55-58英寸",
+                                   "pic": "assets/images/categroy-img/tv4.jpg"
+                               },
+                               {
+                                   "title": "65-75英寸",
+                                   "pic": "assets/images/categroy-img/tv5.jpg"
+                               },
+                               {
+                                   "title": "投光摄影电视",
+                                   "pic": "assets/images/categroy-img/tv6.jpg"
                                }
 
                            ]
                        },
-                       {
-                           "name": "Redmin红米 Note系列",
-                           "products": [
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               },
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               },
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               },
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               }
-                           ]
-                       },
-                       {
-                           "name": "Redmin红米 K系列",
-                           "products": [
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               },
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               }
-                           ]
-                       },
-                       {
-                           "name": "Redmin红米 手机配件",
-                           "products": [
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               },
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               }
-                           ]
-                       }
                    ]
                },
                {
                    "title": "大家电",
                    "goods": [
                        {
-                           "name": "Redmin红米 数字系列",
+                           "name": "大家电",
                            "products": [
                                {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
+                                   "title": "冰箱",
+                                   "pic": "assets/images/categroy-img/da1.png"
                                },
                                {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
+                                   "title": "壁挂空间",
+                                   "pic": "assets/images/categroy-img/da2.png"
                                },
                                {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
+                                   "title": "立式空调",
+                                   "pic": "assets/images/categroy-img/da3.jpg"
                                },
                                {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
+                                   "title": "滚筒洗衣机",
+                                   "pic": "assets/images/categroy-img/da4.png"
+                               },
+                               {
+                                   "title": "波轮洗衣机",
+                                   "pic": "assets/images/categroy-img/da5.png"
                                }
 
                            ]
-                       },
-                       {
-                           "name": "Redmin红米 Note系列",
-                           "products": [
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               },
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               },
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               },
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               }
-                           ]
-                       },
-                       {
-                           "name": "Redmin红米 K系列",
-                           "products": [
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               },
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               }
-                           ]
-                       },
-                       {
-                           "name": "Redmin红米 手机配件",
-                           "products": [
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               },
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               }
-                           ]
-                       }
-                   ]
+                       }]
                },
                {
                    "title": "电脑",
                    "goods": [
                        {
-                           "name": "Redmin红米 数字系列",
+                           "name": "电脑",
                            "products": [
                                {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
+                                   "title": "显示器",
+                                   "pic": "assets/images/categroy-img/comp1.jpg"
                                },
                                {
                                    "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
+                                   "pic": "assets/images/categroy-img/comp2.jpg"
                                },
                                {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
+                                   "title": "Pro 15.6",
+                                   "pic": "assets/images/categroy-img/comp3.jpg"
                                },
                                {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
+                                   "title": "Air 13.3",
+                                   "pic": "assets/images/categroy-img/comp6.jpg"
+                               },
+                               {
+                                   "title": "Air 12.5",
+                                   "pic": "assets/images/categroy-img/comp5.jpg"
+                               },
+                               {
+                                   "title": "游戏本",
+                                   "pic": "assets/images/categroy-img/comp6.png"
                                }
 
                            ]
                        },
-                       {
-                           "name": "Redmin红米 Note系列",
-                           "products": [
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               },
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               },
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               },
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               }
-                           ]
-                       },
-                       {
-                           "name": "Redmin红米 K系列",
-                           "products": [
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               },
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               }
-                           ]
-                       },
-                       {
-                           "name": "Redmin红米 手机配件",
-                           "products": [
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               },
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               }
-                           ]
-                       }
                    ]
                },
                {
-                   "title": "电脑",
+                   "title": "小爱智能",
                    "goods": [
                        {
-                           "name": "Redmin红米 数字系列",
+                           "name": "小爱智能",
                            "products": [
                                {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
+                                   "title": "小爱音箱",
+                                   "pic": "assets/images/categroy-img/xiaoai2.png"
                                },
                                {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
+                                   "title": "小爱音箱 pro",
+                                   "pic": "assets/images/categroy-img/xiaoai1.jpg"
                                },
                                {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
+                                   "title": "小爱老师",
+                                   "pic": "assets/images/categroy-img/xiaoai3.jpg"
                                },
                                {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
+                                   "title": "小爱音箱Play",
+                                   "pic": "assets/images/categroy-img/xiaoai4.jpg"
+                               },
+                               {
+                                   "title": "小爱触屏",
+                                   "pic": "assets/images/categroy-img/xiaoai5.png"
+                               },
+                               {
+                                   "title": "小爱AI音箱",
+                                   "pic": "assets/images/categroy-img/xiaoai6.jpg"
+                               },
+                               {
+                                   "title": "小爱HD",
+                                   "pic": "assets/images/categroy-img/xiaoai7.jpg"
+                               },
+                               {
+                                   "title": "小爱超级通话版",
+                                   "pic": "assets/images/categroy-img/xiaoai8.png"
                                }
 
                            ]
-                       },
-                       {
-                           "name": "Redmin红米 Note系列",
-                           "products": [
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               },
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               },
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               },
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               }
-                           ]
-                       },
-                       {
-                           "name": "Redmin红米 K系列",
-                           "products": [
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               },
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               }
-                           ]
-                       },
-                       {
-                           "name": "Redmin红米 手机配件",
-                           "products": [
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               },
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               }
-                           ]
                        }
+                       ]
+               },
+               {
+                   "title": "路由器",
+                   "goods": [
+                         {
+                               "name": "路由器",
+                               "products": [
+                                    {
+                                        "title": "路由器AC2100",
+                                        "pic": "assets/images/categroy-img/lu1.jpg"
+                                    },
+                                    {
+                                        "title": "路由4A",
+                                        "pic": "assets/images/categroy-img/lu2.jpg"
+                                    },
+                                    {
+                                        "title": "路由Mesh",
+                                        "pic": "assets/images/categroy-img/lu3.jpg"
+                                    },
+                                    {
+                                        "title": "路由4C 300M",
+                                        "pic": "assets/images/categroy-img/lu4.jpg"
+                                    },
+                                    {
+                                        "title": "路由4A 干兆版",
+                                        "pic": "assets/images/categroy-img/lu5.jpg"
+                                    },
+                                    {
+                                        "title": "路由4 全干兆",
+                                        "pic": "assets/images/categroy-img/lu6.jpg"
+                                    },
+                               ]
+                           },
                    ]
                },
                {
-                   "title": "电脑",
+                   "title": "生活电器",
                    "goods": [
                        {
-                           "name": "Redmin红米 数字系列",
+                           "name": "生活电器",
                            "products": [
                                {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
+                                   "title": "空气净化器",
+                                   "pic": "assets/images/categroy-img/life.png"
                                },
                                {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
+                                   "title": "新风机",
+                                   "pic": "assets/images/categroy-img/life2.jpg"
                                },
                                {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
+                                   "title": "扫地机",
+                                   "pic": "assets/images/categroy-img/life3.jpg"
                                },
                                {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
+                                   "title": "除螨仪",
+                                   "pic": "assets/images/categroy-img/life5.png"
+                               },
+                               {
+                                   "title": "擦地机",
+                                   "pic": "assets/images/categroy-img/life2.jpg"
                                }
 
                            ]
-                       },
-                       {
-                           "name": "Redmin红米 Note系列",
-                           "products": [
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               },
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               },
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               },
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               }
-                           ]
-                       },
-                       {
-                           "name": "Redmin红米 K系列",
-                           "products": [
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               },
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               }
-                           ]
-                       },
-                       {
-                           "name": "Redmin红米 手机配件",
-                           "products": [
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               },
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               }
-                           ]
                        }
+
                    ]
                },
                {
-                   "title": "电脑",
+                   "title": "厨房电器",
                    "goods": [
                        {
-                           "name": "Redmin红米 数字系列",
+                           "name": "厨房电器",
                            "products": [
                                {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
+                                   "title": "净水器",
+                                   "pic": "assets/images/categroy-img/chu1.jpg"
                                },
                                {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
+                                   "title": "电饭煲",
+                                   "pic": "assets/images/categroy-img/chu2.jpg"
                                },
                                {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
+                                   "title": "烟机灶具",
+                                   "pic": "assets/images/categroy-img/chu3.png"
                                },
                                {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               }
+                                   "title": "电磁炉",
+                                   "pic": "assets/images/categroy-img/chu4.jpg"
+                               },
+                               {
+                                   "title": "电压力锅",
+                                   "pic": "assets/images/categroy-img/chu3.png"
+                               },
+                               {
+                                   "title": "微波炉",
+                                   "pic": "assets/images/categroy-img/chu5.jpg"
+                               },
+                               {
+                                   "title": "电烤箱",
+                                   "pic": "assets/images/categroy-img/chu6.jpg"
+                               },
+                               {
+                                   "title": "料理机",
+                                   "pic": "assets/images/categroy-img/chu7.jpg"
+                               },
 
-                           ]
-                       },
-                       {
-                           "name": "Redmin红米 Note系列",
-                           "products": [
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               },
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               },
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               },
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               }
-                           ]
-                       },
-                       {
-                           "name": "Redmin红米 K系列",
-                           "products": [
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               },
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               }
-                           ]
-                       },
-                       {
-                           "name": "Redmin红米 手机配件",
-                           "products": [
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               },
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               }
-                           ]
-                       }
-                   ]
-               },
-               {
-                   "title": "电脑",
-                   "goods": [
-                       {
-                           "name": "Redmin红米 数字系列",
-                           "products": [
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               },
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               },
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               },
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               }
-
-                           ]
-                       },
-                       {
-                           "name": "Redmin红米 Note系列",
-                           "products": [
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               },
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               },
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               },
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               }
-                           ]
-                       },
-                       {
-                           "name": "Redmin红米 K系列",
-                           "products": [
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               },
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               }
-                           ]
-                       },
-                       {
-                           "name": "Redmin红米 手机配件",
-                           "products": [
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               },
-                               {
-                                   "title": "小米CC91 Pro",
-                                   "pic": "assets/images/categroy-img/phone1.png"
-                               }
                            ]
                        }
                    ]
