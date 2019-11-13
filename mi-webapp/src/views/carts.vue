@@ -30,7 +30,6 @@
                 </div>
             </a>
         </div>
-
     </div>
 </template>
 
@@ -44,13 +43,10 @@
         components:{
             "cart-header":header,
             "cart-empty":empty,
-            // "cart-guess":guess,
-            // "cart-list":cartList,
-            // "cart-footer":cartFooter
         },
         computed: {
             ...mapGetters({
-                cartInfo: 'GETCART'
+                cartInfo: 'GETCART' //获取更新的共享的状态
             })
         },
         data(){
@@ -74,14 +70,11 @@
             },
             async _initCartyData() {
                 let data = await cartApi.getCarData();
-                console.log(data);
                 this.data=data;
-
                 for(let i=0;i<this.cartInfo.length;i++){
                     this.data.shops.forEach((shop)=>{
                         shop.products.forEach((product)=>{
                             if(product.pId==this.cartInfo[i]){
-                                // this.partdata = product;
                                 this.list.push(product)
                             }
                         })
@@ -91,12 +84,10 @@
             updatadata(a){
                 this.buydata=a
                 console.log(this.buydata)
-                // alert(this.buydata)
             }
         },
          beforeMount() {
              this._initCartyData()
-             // this.$cart.$on("ca",this.updatadata)
 
         },
 

@@ -7,7 +7,6 @@
                    class="check goods-check goodsCheck"/>
             <div class="shop-info-img">
                 <a href="#">
-<!--                    <img src="../../assets/images/carts/goods1.jpg"/>-->
                     <img :src="data.pic" alt="">
                 </a>
             </div>

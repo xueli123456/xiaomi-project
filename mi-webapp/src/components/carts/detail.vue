@@ -54,28 +54,23 @@
                 id:""
             }
         },
-
         methods: {
             async _initCarifyData() {
                 let data = await cartApi.getCarData();
-                console.log(data);
                 this.data = data
                 let a = this.$route.params.id;
                 this.id=a;
-                console.log(a)
                 if (this.data.shops) {
                     this.data.shops.forEach((shop) => {
                         shop.products.forEach((product) => {
                             if (product.pId == a) {
                                 this.detaildata = product;
-                                console.log(this.detaildata)
                             }
                         })
                     })
                 }
             },
             cpp(){
-                // this.$cart.$emit("ca", this.detaildata.pId)
                 this.$store.dispatch('INITCART',this.id)
             }
 

@@ -74,7 +74,6 @@
         },
         created() {
             this._initPageData()
-            // this.$nextTick 是一个异步函数，为了确保 DOM 已经渲染
         },
         methods: {
             /**
@@ -83,28 +82,25 @@
             async _initPageData () {
                 let data = await categoryApi.getCategoryInfo()
                 this.categoryInfo = data.goodlist
-                // eslint-disable-next-line no-console
             },
             dataScroll: function () {
-                this.scroll = document.documentElement.scrollTop;
-                // eslint-disable-next-line no-console
+                    this.scroll = document.documentElement.scrollTop || document.body.scrollTop;
             },
             jump(index) {
                 let jump = document.getElementsByClassName('catg-item-main');
                 // 获取需要滚动的距
                 let total = jump[index].offsetTop - 50;
-                 document.documentElement.scrollTop = total;
+                jump[index].style.color="#fb7d34!important";
+                jump[index].style.fontSize='0.177rem!important' ;
                 $('html, body').animate({
                 'scrollTop': total
                 }, 400);
             },
             loadSroll: function () {
-                var self = this;
                 var $navs = $(".catg-list-nav-cur");
-                // eslint-disable-next-line no-console
                 var sections = document.getElementsByClassName('catg-item-main');
                 for (var i = sections.length - 1; i >= 0; i--) {
-                    if (self.scroll >= sections[i].offsetTop - 100) {
+                    if (this.scroll >= sections[i].offsetTop-100) {
                         $navs.eq(i).addClass("catgCurrent").siblings().removeClass("catgCurrent")
                         break;
                     }

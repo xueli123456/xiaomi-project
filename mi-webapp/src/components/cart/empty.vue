@@ -7,7 +7,7 @@
             </a>
         </div>
         <div class="no-goods">
-            <a href="main">
+            <a href="#/main/home">
                 <span>购物车还是空的</span>
                 <em>去逛逛</em>
             </a>
