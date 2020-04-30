@@ -10,7 +10,7 @@
   "dependencies": {
     "better-scroll": "latest",
     "core-js": "^3.3.2",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "node-sass": "^4.13.0",
     "sass-loader": "^8.0.0",
     "swiper": "^5.2.0",
